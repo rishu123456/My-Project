@@ -16,19 +16,29 @@ To run this project locally, you need to have the following installed:
 ### Steps to Set Up
 
 1. Clone the repository:
+ git clone https://github.com/rishu123456/My-Project.git
 
 2. Navigate to the project directory:
 
 ```bash
-git clone <repository_url>
 
-cd <project_name>
+cd My-Project
 
-3. Install the dependencies:
+3. Switch to the Task-Management Branch
+
+git checkout Task-Management
+
+4.open the project in vs code.
+
+5. Install the dependencies:
 npm install
 
-4. how to run 
+
+6. how to run 
+
 npm start
+
+
 
 **Approach and Thought Process**:
 The Task Management Application allows users to:
