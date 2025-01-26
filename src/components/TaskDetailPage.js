@@ -22,6 +22,7 @@ function TaskDetailPage({ tasks }) {
 
 TaskDetailPage.propTypes = {
   tasks: PropTypes.array.isRequired,
+  
 };
 
 export default TaskDetailPage;
