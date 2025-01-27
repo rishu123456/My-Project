@@ -7,7 +7,7 @@ function TaskDetailPage({ tasks }) {
   const { id } = useParams();
   const task = tasks.find((task) => task.id === parseInt(id, 10));
 
-  if (!task) return <p>Task not found</p>;
+  if (!task) return <p>Tasks not found</p>;
 
   return (
     <div className="task-detail">
@@ -22,7 +22,7 @@ function TaskDetailPage({ tasks }) {
 
 TaskDetailPage.propTypes = {
   tasks: PropTypes.array.isRequired,
-  
+
 };
 
 export default TaskDetailPage;
