@@ -1,2 +1,2 @@
 # My-Project
-under this repo i have made diffrenet branches for different projects.
+under this repo i will be pushing exceptional projects made for different projects.
